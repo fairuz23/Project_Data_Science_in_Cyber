@@ -71,7 +71,8 @@ malware-detection-critical-evaluation/
 ├── results/                                      <- saved output artifacts (committed)
 │   ├── README.md
 │   ├── duplicate_stats.json                      <- duplicate-FEATURE-VECTOR counts + caveat
-│   ├── metrics.csv / metrics.json                <- Pipeline A vs. B metrics per model
+│   ├── metrics.csv                               <- Pipeline A vs. B metrics per model
+│   ├── metrics.json 
 │   ├── cv_metrics.csv                             <- 5-fold CV MCC (corrected pipeline)
 │   ├── roc_pr_auc.csv                             <- ROC-AUC / PR-AUC (average precision) per model
 │   └── knn_scaling_ablation.csv                   <- KNN MCC with vs. without StandardScaler
@@ -79,7 +80,7 @@ malware-detection-critical-evaluation/
 │   └── MalwareDataSet.csv  <- downloaded automatically on first run if not already present
 └── figures/                                       <- PNG figures (committed)
     ├── 01_feature_distributions.png
-    ├── 02_feature_correlation\_heatmap.png
+    ├── 02_feature_correlation_heatmap.png
     ├── 03_feature_distributions_by_class.png
     ├── 04_naive_vs_corrected.png
     ├── 05_roc_curves.png
