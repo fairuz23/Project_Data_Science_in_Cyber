@@ -1,0 +1,4 @@
+model,roc_auc,pr_auc
+KNN (k=5),0.958,0.9746
+Decision Tree,0.9641,0.9788
+Random Forest,0.989,0.9954

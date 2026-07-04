@@ -1,0 +1,56 @@
+[
+  {
+    "pipeline":"A: naive replication - KNN (k=5)",
+    "accuracy":0.9705,
+    "precision":0.9451,
+    "recall":0.9575,
+    "f1":0.9513,
+    "f2":0.955,
+    "mcc":0.9301
+  },
+  {
+    "pipeline":"A: naive replication - Decision Tree",
+    "accuracy":0.9882,
+    "precision":0.9787,
+    "recall":0.9822,
+    "f1":0.9804,
+    "f2":0.9815,
+    "mcc":0.972
+  },
+  {
+    "pipeline":"A: naive replication - Random Forest",
+    "accuracy":0.9918,
+    "precision":0.9854,
+    "recall":0.9873,
+    "f1":0.9864,
+    "f2":0.9869,
+    "mcc":0.9805
+  },
+  {
+    "pipeline":"B: corrected pipeline - KNN (k=5)",
+    "accuracy":0.9258,
+    "precision":0.9447,
+    "recall":0.9542,
+    "f1":0.9495,
+    "f2":0.9523,
+    "mcc":0.8101
+  },
+  {
+    "pipeline":"B: corrected pipeline - Decision Tree",
+    "accuracy":0.945,
+    "precision":0.9586,
+    "recall":0.9665,
+    "f1":0.9625,
+    "f2":0.9649,
+    "mcc":0.8595
+  },
+  {
+    "pipeline":"B: corrected pipeline - Random Forest",
+    "accuracy":0.957,
+    "precision":0.9699,
+    "recall":0.9713,
+    "f1":0.9706,
+    "f2":0.971,
+    "mcc":0.8907
+  }
+]

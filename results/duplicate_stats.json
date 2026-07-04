@@ -1,0 +1,8 @@
+{
+  "n_rows": 137444,
+  "n_full_duplicate_rows": 104774,
+  "pct_full_duplicate_rows": 0.7623031925729752,
+  "n_duplicate_feature_vectors": 104818,
+  "pct_duplicate_feature_vectors": 0.7626233229533482,
+  "note": "Counts reflect duplicate FEATURE VECTORS, not confirmed duplicate physical files (no file hash/ID exists in this dataset)."
+}

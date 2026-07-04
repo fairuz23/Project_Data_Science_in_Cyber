@@ -1,0 +1,4 @@
+model,mcc_mean,mcc_std
+KNN (k=5),0.8114,0.0054
+Decision Tree,0.8663,0.006
+Random Forest,0.8978,0.0048

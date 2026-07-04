@@ -1,0 +1,3 @@
+condition,mcc_single_split,mcc_cv_mean,mcc_cv_std
+unscaled,0.6903,0.6856,0.0092
+scaled,0.8101,0.8114,0.0054
